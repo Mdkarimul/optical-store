@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --bg-one:#1da6be41;
+    --bg-two:#08d0f3;
+    --text-one:#333333c4;
+    --text-two:#036374f8;
+    --text-title:#faf9ea;
+    --text-description:#e6e3e3;
+    --btn-bg-one :#12a591;
+}
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+.bg-one {
+    background-color: var(--bg-one);
+}
+.bg-two {
+    background-color: var(--bg-two);
+}
+.text-one{
+    color: var(--text-one);
+}
+.text-two {
+    color: var(--text-two);
+}
+.text-title {
+color: var(--text-title);
+font-weight: 500;
+font-size:2.5rem;
+text-transform: capitalize;
+}
+.text-description {
+color: var(--text-description);
+font-size:1rem;
+}
+.btn-custom {
+    padding: 10px 25px;
+    border-radius:20px;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+.btn-bg-one {
+background-color: var(--btn-bg-one);
+}

@@ -1,0 +1,49 @@
+.container-fluid {
+    width: 100%;
+    height: 500px;
+}
+
+.about-content h3  {
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+    color: var(--text-two);
+}
+.about-content h3::before {
+    position:absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid var(--bg-one);
+    left: -30px;
+}
+.about-content h1 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+.about-content p {
+    font-size: 1rem;
+}
+
+//Accordian coding
+.list-group {
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 1px solid var(--text-one);
+}
+.accordion-button{
+    font-size: 1.3rem;
+    width: fit-content;
+    font-weight: 400;
+}
+.accordion-body p {
+    font-size: 0.9rem;
+}
+.list-group:first{
+    color: var(--bg-one);
+}
+.about-image img {
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
