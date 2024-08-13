@@ -1,0 +1,91 @@
+.container-fluid {
+    width: 100%;
+    height: auto;
+    background: hsla(195, 86%, 50%, 1);
+
+    background:  to top, linear-gradient(90deg, hsla(195, 86%, 50%, 1) 0%, hsla(236, 93%, 65%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(195, 86%, 50%, 1) 0%, hsla(236, 93%, 65%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(195, 86%, 50%, 1) 0%, hsla(236, 93%, 65%, 1) 100%);
+    
+    // filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#12B3EB", endColorstr="#5460F9", GradientType=1 );
+    padding: 3rem 0rem;
+}
+
+h3  {
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+    color: var(--text-title);
+}
+h3::before {
+    position:absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid var(--bg-one);
+    left: -30px;
+}
+
+.services-content h3  {
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+    color: var(--text-title);
+}
+.services-content p {
+    color: var(--text-title);
+    font-weight: light;
+}
+.services-content h3::before {
+    position:absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid var(--bg-one);
+    left: -30px;
+}
+.services-content h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    span {
+
+    }
+}
+.services-content p {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.input-group {
+    width: 45%;
+    height: 30px;
+    margin-bottom: 50px;
+}
+.input-group input {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid var(--bg-two);
+    color: var(--text-title);
+    box-shadow: none;
+    border-radius: 0;
+    font-size:0.9rem;
+}
+.input-group textarea {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid var(--bg-two);
+    color: var(--text-title);
+    box-shadow: none;
+    border-radius: 0;
+    font-size: 0.9rem;
+}
+.input-group textarea::placeholder {
+    color: var(--text-title);
+}
+.input-group input::placeholder {
+   color: var(--text-title);
+}

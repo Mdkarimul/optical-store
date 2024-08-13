@@ -2,7 +2,6 @@
     font-size: 0.9rem;
 }
 .container-fluid {
-    padding: 40px 0px 10px 0px; 
     background-color: #f8f8f8; 
 }
 
@@ -23,7 +22,6 @@
     align-items: center;
     padding: 15px;
     margin-right:15px;
-
   }
   .social-links a i {
    color: var(--bg-two);
@@ -36,15 +34,11 @@
     list-style-type: none;
     padding: 0px;
     margin: 0px;
-    
   }
-  ul li 
-  {
-  
-  }
+ 
   ul li a {
    text-decoration: none;
-
+   font-weight: 300;
   }
 
   
