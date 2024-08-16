@@ -4,7 +4,8 @@
 :root {
     --bg-one:#1da6be41;
     --bg-two:#0565e4;
-    --bg-third:#1C394C;
+    --bg-three:#1C394C;
+    --bg-four:#fff;
     --text-one:#333333c4;
     --text-two:#036374f8;
     --text-title:#faf9ea;
@@ -12,7 +13,7 @@
     --btn-bg-one :#12a591;
 }
 * {
-     font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     box-sizing: border-box;
 }
 .bg-one {

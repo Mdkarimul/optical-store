@@ -1,25 +1,17 @@
 .container-fluid {
     width: 100%;
     height: auto;
-    background: hsla(195, 86%, 50%, 1);
-
-    background:  to top, linear-gradient(90deg, hsla(195, 86%, 50%, 1) 0%, hsla(236, 93%, 65%, 1) 100%);
-    
-    background: -moz-linear-gradient(90deg, hsla(195, 86%, 50%, 1) 0%, hsla(236, 93%, 65%, 1) 100%);
-    
-    background: -webkit-linear-gradient(90deg, hsla(195, 86%, 50%, 1) 0%, hsla(236, 93%, 65%, 1) 100%);
-    
-    // filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#12B3EB", endColorstr="#5460F9", GradientType=1 );
+    background:var(--bg-four);
     padding: 3rem 0rem;
 }
 
-h3  {
+.blog-content > h3  {
     font-size: 12px;
     font-weight: 400;
     position: relative;
-    color: var(--text-title);
+    color: var(--text-two);
 }
-h3::before {
+.blog-content >  h3::before {
     position:absolute;
     content: '';
     width: 20px;
@@ -29,17 +21,9 @@ h3::before {
     left: -30px;
 }
 
-.services-content h3  {
-    font-size: 12px;
-    font-weight: 400;
-    position: relative;
-    color: var(--text-title);
-}
-.services-content p {
-    color: var(--text-title);
-    font-weight: light;
-}
-.services-content h3::before {
+
+
+.blog-content >  h3::before {
     position:absolute;
     content: '';
     width: 20px;
@@ -48,17 +32,31 @@ h3::before {
     border: 1px solid var(--bg-one);
     left: -30px;
 }
-.services-content h1 {
-    font-size: 2rem;
-    font-weight: 400;
-    span {
-
-    }
+.blog-content >  h1 {
+    font-size: 1.9rem;
+    font-weight: 500;
+    color: var(--bg-three);
 }
-.services-content p {
+.card-body > h3{
+    color: var(--text-two);
+    font-size:1.6rem;
+    font-weight: 500;
+}
+.card-body > p {
     font-size: 0.9rem;
+}
+.author > .adr > h5 {
+    font-size:1rem;
     font-weight: 400;
 }
+.adr > p {
+    font-size:0.8rem;
+    font-weight:300;
+}
+
+
+
+
 
 
 
