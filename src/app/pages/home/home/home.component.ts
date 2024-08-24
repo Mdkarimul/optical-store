@@ -6,11 +6,12 @@ import { FooterComponent } from '../footer/footer.component';
 import { AboutComponent } from '../about/about.component';
 import { AppointmentComponent } from "../appointment/appointment.component";
 import { BlogComponent } from "../blog/blog.component";
+import { FeedbackComponent } from "../feedback/feedback.component";
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [NavComponent, HeaderComponent, ServicesComponent, FooterComponent, AboutComponent, AppointmentComponent, BlogComponent],
+  imports: [NavComponent, HeaderComponent, ServicesComponent, FooterComponent, AboutComponent, AppointmentComponent, BlogComponent, FeedbackComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
