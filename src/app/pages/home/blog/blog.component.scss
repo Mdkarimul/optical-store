@@ -2,15 +2,14 @@
     width: 100%;
     height: auto;
     background:var(--bg-four);
-    padding: 5rem 0rem;
-    border:2px solid red;
+    padding:7rem 0rem;
 }
 
 .blog-content > h3  {
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 400;
-    position: relative;
     color: var(--text-two);
+    position: relative;
 }
 .blog-content >  h3::before {
     position:absolute;
@@ -22,19 +21,8 @@
     left: -30px;
 }
 
-
-
-.blog-content >  h3::before {
-    position:absolute;
-    content: '';
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    border: 1px solid var(--bg-one);
-    left: -30px;
-}
 .blog-content >  h1 {
-    font-size: 1.9rem;
+    font-size: 1.6rem;
     font-weight: 500;
     color: var(--bg-three);
 }
@@ -53,6 +41,27 @@
 .adr > p {
     font-size:0.8rem;
     font-weight:300;
+}
+
+.text-cont > h3 {
+    font-size:1.4rem;
+    
+}
+.text-cont > p {
+    font-size: 0.9rem;
+}
+.author-item > .adr h5{
+  font-size: 0.9rem;
+}
+.item > .text-cont >  h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--bg-three);
+}
+.card-body > h3{
+    color: var(--text-two);
+    font-size:1.6rem;
+    font-weight: 500;
 }
 
 

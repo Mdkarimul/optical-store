@@ -1,0 +1,71 @@
+ .container-fluid {
+    border:1px solid red; 
+    padding: 50px 0px;
+ }
+ h3  {
+    font-size: 15px;
+    font-weight:500;
+    color: var(--bg-);
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    color: var(--btn-bg-one);
+}
+  h3::before {
+    position:absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid var(--bg-one);
+    left: -30px;
+    top:-5px;
+}
+.container > h1 {
+    text-align: center;
+    color: var(--bg-three);
+    font-size: 1.8rem;
+    margin: 30px 0px;
+}
+
+.item {
+    width:100%;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px #ddd;
+    position: relative;
+    padding: 30px 20px;
+    border-radius: 10px;
+   span {
+    color: var(--text-one);
+   }
+   p {
+    color: var(--text-two);
+    text-align: center;
+    padding: 15px 10px;
+   }
+   img {
+    border-radius: 50%;
+   }
+   .name { 
+    color: var(--bg-four);
+    font-weight: 500;
+    margin: 10px auto;
+   }
+}
+.item > div > span {
+    font-size:0.9rem;
+}
+#wave {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    
+}
+.social {
+    i {
+        font-size:1.4rem;
+        margin: 4px;
+    }
+}
+
+
