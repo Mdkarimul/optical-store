@@ -1,0 +1,16 @@
+button {
+    width: auto;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 50px;
+    font-size:var(--btn-large);
+    font-weight:medium;
+    letter-spacing: 1px;
+}
+.btn-primary {
+    background-color: var(--brand-secondary-1400);
+    color: var(--brand-secondary-50);
+}
+.btn-secondary {
+    background-color: var(--turquoise-surf-100);
+}

@@ -1,7 +1,10 @@
-<header class="bg-one py-2" >
-  <nav class="navbar  container navbar-expand-lg">
+<header class="py-3">
+  <nav class="navbar  container-fluid navbar-expand-lg px-0 px-lg-5">
     <div class="container-fluid px-4  px-lg-0" >
-      <a class="navbar-brand fw-bold text-uppercase border-1 me-5" href="#"><img width="100px" height="auto" src="./assets/images/logo.png" alt="karimul"></a>
+      <a class="navbar-brand fw-bold text-uppercase  me-5" href="#">
+      Imon optical
+        <!-- <img width="100px" height="auto" src="./assets/images/logo.png" alt="karimul"> -->
+      </a>
       <button
         class="navbar-toggler"
         type="button"
@@ -16,7 +19,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item mx-2">
-            <a class="nav-link text-one" aria-current="page" href="#">Home</a>
+            <a class="nav-link" aria-current="page" href="#">Home</a>
           </li>
           <li class="" class="nav-item mx-2">
             <a class="nav-link text-one" href="#">Services</a>
@@ -34,8 +37,7 @@
           </li>
         </ul>
       </div>
-
-      <button class="btn-custom btn-bg-one text-one border-0 text-capitalize me-auto rounded-5 d-none d-lg-block ">book appointment</button>
+      <app-button-lg class="d-none d-lg-block" [color]="'btn-primary button'" [btnText]="'Book appointment'"></app-button-lg>
     </div>
   </nav>
 </header>

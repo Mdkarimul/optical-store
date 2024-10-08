@@ -1,5 +1,4 @@
-<div class="bg-one container-fluid ">
-<div class="container mb-4 position-relative">
+<!-- <div class=" container-fluid position-relative ">
 <div class="content position-absolute px-4 row">
 
     <div  class="col-md-6 d-flex justify-content-center align-items-start flex-column">
@@ -15,5 +14,33 @@
 
    
 </div>
-</div>
-</div>
+
+</div> -->
+
+<div *ngIf="images && images.length > 0" class="carousel-container">
+    <img
+      class="fade"
+      width="100%"
+      *ngFor="let item of images; let i = index"
+      [src]="item.imageSrc"
+      [alt]="item.imageAlt"
+      [ngClass]="{ 'image-active': selectedIndex === i }"
+    />
+    <div *ngIf="indicators" class="carousel-dot-container">
+      <span
+        (click)="selectImage(i)"
+        *ngFor="let item of images; let i = index"
+        [ngClass]="{ active: selectedIndex === i }"
+        class="dot"
+      ></span>
+    </div>
+  
+    <div *ngIf="controls" (click)="onPrev()" class="btn-carousel btn-prev">
+      <i class="fas fa-arrow-circle-left icon-carousel icon-prev"></i>
+    </div>
+  
+    <div *ngIf="controls" (click)="onNext()" class="btn-carousel btn-next">
+      <i class="fas fa-arrow-circle-right icon-carousel icon-next"></i>
+    </div>
+  </div>
+  

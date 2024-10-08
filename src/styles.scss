@@ -1,34 +1,274 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-:root {
-    --bg-one:#1da6be41;
-    --bg-two:#0565e4;
-    --bg-three:#1C394C;
-    --bg-four:#fff;
-    --text-one:#333333c4;
-    --text-two:#036374f8;
-    --text-title:#faf9ea;
-    --text-description:#e6e3e3;
-    --btn-bg-one :#12a591;
+// :root {
+//     --bg-one:#1da6be41;
+//     --bg-two:#0565e4;
+//     --bg-three:#1C394C;
+//     --bg-four:#fff;
+//     --text-one:#333333c4;
+//     --text-two:#036374f8;
+//     --text-title:#faf9ea;
+//     --text-description:#e6e3e3;
+//     --btn-bg-one :#12a591;
 
+//     //headings
 
-
-
-    //headings
-
-    --heading-one: 40px;
-    
-}
-
-
-
-
-
+//     --heading-one: 40px;   
+// }
 * {
     font-family: "Roboto", sans-serif;
     box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
 }
+
+
+// Colors pallete =========================>
+:root {
+    --brand-primary-50:#C10606;
+    --brand-primary-100:#B40606;
+    --brand-primary-200:#A70505;
+    --brand-primary-300:#9A0505;
+    --brand-primary-400:#8E0404;
+    --brand-primary-500:#810404;
+    --brand-primary-600:#740404;
+    --brand-primary-700:#670303;
+    --brand-primary-800:#5A0303;
+    --barnd-primary-900:#4D0202;
+    --brand-primary-950:#400202;
+    --brand-primary-700:#330202;
+    --brand-primary-800:#270101;
+    --barnd-primary-900:#1A0101;
+    --brand-primary-950:#0D0000;
+
+
+
+    --brand-secondary-50:#FFFFFF;
+    --brand-secondary-100:#EEEEEE;
+    --brand-secondary-200:#DDDDDD;
+    --brand-secondary-300:#CCCCCC;
+    --brand-secondary-400:#BBBBBB;
+    --brand-secondary-500:#AAAAAA;
+    --brand-secondary-600:#999999;
+    --brand-secondary-700:#888888;
+    --brand-secondary-800:#777777;
+    --brand-secondary-900:#666666;
+    --brand-secondary-1000:#555555;
+    --brand-secondary-1100:#444444;
+    --brand-secondary-1200:#333333;
+    --brand-secondary-1300:#222222;
+    --brand-secondary-1400:#111111;
+
+
+    --turquoise-surf-50:#0BBED5;
+    --turquoise-surf-100:#0AB1C7;
+    --turquoise-surf-200:#0AA5B9;
+    --turquoise-surf-300:#0998AA;
+    --turquoise-surf-400:#088B9C;
+    --turquoise-surf-500:#077F8E;
+    --turquoise-surf-600:#077280;
+    --turquoise-surf-700:#066572;
+    --turquoise-surf-800:#055963;
+    --turquoise-surf-900:#044C55;
+    --turquoise-surf-1000:#043F47;
+    --turquoise-surf-1100:#033339;
+    --turquoise-surf-1200:#02262B;
+    --turquoise-surf-1300:#01191C;
+    --turquoise-surf-1400:#010D0E;
+
+
+    --fluorescent-blue-50:#2000E5;
+    --fluorescent-blue-100:#1E00D6;
+    --fluorescent-blue-200:#1C00C7;
+    --fluorescent-blue-300:#1A00B8;
+    --fluorescent-blue-400:#1800A8;
+    --fluorescent-blue-500:#150099;
+    --fluorescent-blue-600:#13008A;
+    --fluorescent-blue-700:#11007A;
+    --fluorescent-blue-800:#0F006B;
+    --fluorescent-blue-900:#0D005C;
+    --fluorescent-blue-1000:#0B004C;
+    --fluorescent-blue-1100:#09003D;
+    --fluorescent-blue-1200:#06002E;
+    --fluorescent-blue-1300:#04001F;
+    --fluorescent-blue-1400:#02000F;
+
+
+    --danger-50:#FD0707;
+    --danger-100:#E42020;
+    --danger-200:#CC3838;
+    --danger-300:#B35151;
+    --danger-400:#9B6A6A;
+
+    --warning-50:#FBAC23;
+    --warning-100:#E5A639;
+    --warning-200:#D0A04E;
+    --warning-300:#BA9B64;
+    --warning-400:#A59579;
+
+
+    --success-50:#29DB7F;
+    --success-100:#3BC980;
+    --success-200:#4DB780;
+    --success-300:#5EA681;
+    --success-400:#709481;
+
+
+}
+
+
+// Start Desktop Heading ===========================>
+.desktop-heading-xlarge{
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 105%;
+    letter-spacing:-2px;
+}
+.desktop-heading-large{
+font-weight: bold;
+font-size: 56px;
+line-height: 105%;
+letter-spacing: -2px;
+}
+.desktop-heading-medium {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 110%;
+    letter-spacing: -1.5px;
+}
+
+.desktop-heading-small {
+    font-weight: bold;
+    font-size:32px;
+    line-height: 115%;
+    letter-spacing: -1.5px;
+}
+.desktop-heading-xsmall {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 115%;
+    letter-spacing: -0.75px;
+}
+.desktop-heading-2xsmall {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+// End Desktop Heading =================================>
+
+
+
+// Start Mobile Heading =================================>
+.mobile-heading-xlarge{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 105%;
+    letter-spacing:-2px;
+}
+.mobile-heading-large{
+font-weight: bold;
+font-size: 56px;
+line-height: 105%;
+letter-spacing: -2px;
+}
+.mobile-heading-medium {
+    font-weight: bold;
+    font-size:32px;
+    line-height: 110%;
+    letter-spacing: -1.5px;
+}
+
+.mobile-heading-small {
+    font-weight: bold;
+    font-size:28px;
+    line-height: 115%;
+    letter-spacing: -0.8px;
+}
+.mobile-heading-xsmall {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 115%;
+    letter-spacing: -0.8px;
+}
+.mobile-heading-2xsmall {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+// End Mobile Heading =================================>
+
+
+
+// Start Desktop Text Style ===========================>
+.desktop-text-medium {
+    font-weight:medium;
+    font-size:20px;
+    line-height: 135%;
+}
+
+.desktop-text-small {
+    font-weight:medium;
+    font-size:16px;
+    line-height: 135%;
+}
+.desktop-text-xsmall {
+    font-weight:medium;
+    font-size:12px;
+    line-height: 135%;
+}
+
+
+:root{
+    --btn-large:16px;
+    --btn-small:14px
+}
+
+// End Desktop Text style =================================>
+
+
+
+// Start Desktop Text Style ===========================>
+.desktop-text-medium {
+    font-weight:medium;
+    font-size:18px;
+    line-height: 135%;
+}
+
+.desktop-text-small {
+    font-weight:medium;
+    font-size:16px;
+    line-height: 135%;
+}
+.desktop-text-xsmall {
+    font-weight:medium;
+    font-size:12px;
+    line-height: 135%;
+}
+
+.button-large {
+    font-size: 20px;
+    font-weight: medium;
+    line-height: 100%;
+}
+.button-small {
+    font-size: 16px;
+    font-weight: medium;
+    line-height: 100%;
+}
+// End Desktop Text style =================================>
+
+
+
+
+
+
+
+
 .bg-one {
     background-color: var(--bg-one);
 }
@@ -62,4 +302,12 @@ font-size:1rem;
 background-color: var(--btn-bg-one);
 }
 
+
+
+.h3  {
+    font-weight: 500;
+    position: relative;
+    color: var(--brand-secondary-1200);
+    position: relative;
+}
 

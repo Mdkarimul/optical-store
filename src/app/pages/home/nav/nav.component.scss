@@ -1,11 +1,12 @@
 header{
-// border:1px solid red;
+ background-color: var(--turquoise-surf-100);
 }
-.container {
-    // border:2px solid red;
+.nav-link {
+    color: var(--brand-secondary-100);
+    font-weight: 400;
 }
+
 .container-fluid {
-    // border:2px solid yellow;
     padding: 0px;
     margin: 0px;
 }
