@@ -1,0 +1,22 @@
+<div class="container-fluid">
+    <div class="container container-md-fluid">
+       <h1>FAQ</h1> 
+
+       <div class="faq">
+
+            <div class="item" *ngFor="let item of accordion_array;let i=index;" (click)="collapse(i)">
+                <div class="item-title">
+                    <i [class.rotate]="item.expand" [class]="item.icon"></i>
+                    <span class="desktop-text-medium">{{item.title}}</span>
+                </div>
+                <div [class]="item.expand ? 'show-desc' : 'hide-desc'"   class="item-description desktop-text-xsmall">
+                    {{item.descriptin}}
+                
+                </div>
+            </div>
+           
+        
+       
+       </div>
+    </div>
+</div>

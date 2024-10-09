@@ -1,0 +1,56 @@
+.container {
+    width: 100%;
+    height: auto;
+    padding: 100px 50px;
+    background-color: var(--brand-secondary-1500);
+    h1 {
+        text-align: center;
+    }
+    .faq{
+        width: 100%;
+        height:auto;
+        margin: auto;
+        background-color: var(--brand-secondary-100);
+        border-radius:5px;
+        margin: 50px auto;
+        padding: 1px;
+        transition: all 0.5s;
+        .item {
+            padding:25px 10px;
+            background-color: var(--brand-secondary-50);
+            cursor: pointer;
+            border-bottom: 1px solid var(--brand-secondary-100);
+            transition: all 0.5s;
+            .item-title{
+                display: flex;
+                span {
+            
+                }
+
+             i {
+                font-size:25px;
+                margin: 0px 10px;
+            }
+        }
+        .item-description{
+           transition: all 0.5s ease-in;
+           height: auto;
+           padding: 12px 40px 12px 40px;
+        }
+        }
+    }
+}
+
+.show-desc {
+    display: block;
+}
+.hide-desc{
+    display: none;
+}
+
+.rotate {
+    transform: rotate(40deg);
+    transition: transform 0.2s;
+}
+
+

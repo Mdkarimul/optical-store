@@ -8,11 +8,12 @@ import { AppointmentComponent } from "../appointment/appointment.component";
 import { BlogComponent } from "../blog/blog.component";
 import { FeedbackComponent } from "../feedback/feedback.component";
 import { fromEvent,Observable } from 'rxjs';
+import { FaqComponent } from "../faq/faq.component";
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [NavComponent, HeaderComponent, ServicesComponent, FooterComponent, AboutComponent, AppointmentComponent, BlogComponent, FeedbackComponent],
+  imports: [NavComponent, HeaderComponent, ServicesComponent, FooterComponent, AboutComponent, AppointmentComponent, BlogComponent, FeedbackComponent, FaqComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
