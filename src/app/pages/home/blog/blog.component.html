@@ -1,6 +1,8 @@
-<div class="container-fluid">
+<div class="container-fluid" >
+  <h1 class="desktop-heading-small text-center">Our Latest Blogs</h1>
     <div class="container">
-        <div class="row">
+      
+        <div class="row my-4">
             <div class="col-md-5 p-3 blog-content">
               <h3 class="text-uppercase  my-2">appointment</h3>
               <h1 class="text-two text-capitalize my-4 ">
@@ -25,7 +27,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-7 p-3 " >
+            <div class="col-md-7 p-3" >
               <div class="item  d-flex justify-content-between align-items-center " style="border-bottom:1px solid #ddd;height:220px;">
                 <div class="img-cont p-2" style="width: 40%;height:100%;">
                   <img class="border-0 " style="border-top-left-radius: 30px;border-bottom-right-radius: 30px;" width="90%" height="100%" src="https://images.unsplash.com/photo-1723675747885-84f60ccc4db8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="" alt="...">
@@ -63,7 +65,7 @@
               </div>
 
 
-              <div class="item  d-flex justify-content-between align-items-center " style="border-bottom:1px solid #ddd;height:220px;">
+              <div class="item my-5  d-flex justify-content-between align-items-center " style="border-bottom:1px solid #ddd;height:220px;">
                 <div class="img-cont p-2" style="width: 40%;height:100%;">
                   <img class="border-0 mx-auto"  style="border-top-left-radius: 30px;border-bottom-right-radius: 30px;" width="90%" height="100%" src="https://images.unsplash.com/photo-1723675747885-84f60ccc4db8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="" alt="...">
                  </div>
@@ -80,10 +82,7 @@
                  </div>
               </div>
 
-
-              <button class="btn-custom border-0 bg-two ms-auto m-4">See more...</button>
-
-
+              <app-button-lg [color]="'btn-secondary'" class="my-4" [btnText]="'Read more'"></app-button-lg>
             </div>
           </div>
     </div>

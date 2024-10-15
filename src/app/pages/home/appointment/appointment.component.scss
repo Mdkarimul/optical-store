@@ -1,40 +1,7 @@
 .container-fluid {
     width: 100%;
-    height: auto;
-    // background: hsla(195, 86%, 50%, 1);
-
-    // background:  to top, linear-gradient(90deg, hsla(195, 86%, 50%, 1) 0%, hsla(236, 93%, 65%, 1) 100%);
-    
-    // background: -moz-linear-gradient(90deg, hsla(195, 86%, 50%, 1) 0%, hsla(236, 93%, 65%, 1) 100%);
-    
-    // background: -webkit-linear-gradient(90deg, hsla(195, 86%, 50%, 1) 0%, hsla(236, 93%, 65%, 1) 100%);
-    
-    // // filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#12B3EB", endColorstr="#5460F9", GradientType=1 );
+    background:var(--turquoise-surf-100);
     padding: 3rem 0rem;
-    background-color: #1C394C;
-}
-
-h3  {
-    font-size: 12px;
-    font-weight: 400;
-    position: relative;
-    color: var(--text-title);
-}
-h3::before {
-    position:absolute;
-    content: '';
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    border: 1px solid var(--bg-one);
-    left: -30px;
-}
-
-.services-content h3  {
-    font-size: 12px;
-    font-weight: 400;
-    position: relative;
-    color: var(--text-title);
 }
 .services-content p {
     color: var(--text-title);
@@ -53,7 +20,9 @@ h3::before {
     font-size: 2rem;
     font-weight: 400;
     span {
-
+        color: var(--brand-primary-100);
+        text-transform: uppercase;
+        font-weight: bold;
     }
 }
 .services-content p {
