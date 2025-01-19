@@ -1,3 +1,4 @@
+
 import { AfterViewInit, Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { fromEvent } from 'rxjs';
